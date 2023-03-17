@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://91.21.103.235/ -->
+<html lang="de_DE"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">        
+    <title>Christina &amp; Tobias</title>
+	<style>
+	 body{ font-family: "Space Mono",monospace;font-weight: 400; font-style: italic;text-transform: none!important;
+	 background-color: #193441; color: #636b6f; font-size: 14px;}
+	 th { text-align: center; font-size: 2em; line-height: 1.1; color: #d1dbbd; }
+	 td { text-align: center; font-size: 1.5em; line-height: 1.5; color: #d1dbbd;}
+	</style>
+  </head>
+  <body class="front page-christina-tobias">
+  <div class="onepage-container">
+  <div id="onepage">
+  <table style="width:100%">
+	<tbody><tr>
+	   <th>Christina &amp; Tobias</th>	   
+	</tr>
+	<tr>
+	   <td>24. Juni 2023</td>	   
+	</tr>
+	<tr>
+	  <td><img src="./Christina &amp; Tobias_files/2.jpg"></td>
+	</tr>
+	<tr>
+	  <th>Du bist herzlich eingeladen den Tag mit uns zu feiern!</th>
+	</tr>
+	<tr>
+	  <td>Wir freuen uns ja wahnsinnig auf unseren grossen Tag - und natürlich darauf mit jedem von euch Freunden und Familie anzustossen.</td>
+	</tr>
+	<tr>
+	  <th>Zusammen</th>
+	</tr>
+	<tr>
+	  <td><p>Lieben</p><p>Leben</p><p>Lachen</p></td>
+	</tr>
+	<tr>
+	  <td><p>Bis zum grossen Tag dauert es noch</p>	
+      <p id="countDown">107 Tage 21 Stunden 34 Minuten 18 Sekunden </p></td>
+    </tr>
+	<tr>
+	  <th>Anmeldung</th>
+	  </tr>
+	<tr>
+	  <td><p>Wir freuen uns wenn du den Tag mit uns feierst!</p>
+	      <p>Bitte gib uns bis zum 4.6 bescheid. Ob und mit wie vielen Personen Ihr kommt.</p>	  
+      </td><td>
+	</td></tr>
+	<tr>
+	  <th>Örtlichkeiten</th>
+	</tr>
+	<tr>
+      <td><p>Unsere Trauung findet um 12:30 Uhr in der Basilika St. Emmeram in Regensburg statt.</p><p>Danach feiern wir im Wirtshaus „Zum Sorgenfrei“:</p>
+        <p>Badstraße 54, 93059 Regensburg</p>
+	  </td>
+	</tr><tr>
+      <td>
+		<div class="map">
+		  <iframe src="./Christina &amp; Tobias_files/embed.html" width="100%" height="640"></iframe>
+		  </div>
+	  </td>
+   </tr>
+   <tr>
+     <td>
+     <div class="onepage-footer">   
+       <div class="bold">
+         <!--<img src="http://home-logo.svg" class="footer-logo">-->Footer<!--<a href="https://www.,,,.de"--><!--</a>-->
+       </div>
+	 </div>
+	 </td>
+   </tr>
+   </tbody></table>
+  </div>
+  </div>
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("2023-06-24 12:30:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("countDown").innerHTML = days + " Tage " + hours + " Stunden "
+  + minutes + " Minuten " + seconds + " Sekunden ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+  
+</body></html>
